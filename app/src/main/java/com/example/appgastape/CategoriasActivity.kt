@@ -10,7 +10,8 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.navigation.NavigationView
 
-class CategoriasActivity : AppCompatActivity() {
+class
+CategoriasActivity : AppCompatActivity() {
 
     private lateinit var dlMenu : DrawerLayout
     private lateinit var ivMenu : ImageView

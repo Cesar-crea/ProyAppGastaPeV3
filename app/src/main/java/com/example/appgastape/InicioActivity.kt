@@ -69,7 +69,9 @@ class InicioActivity : AppCompatActivity() {
                 }
 
                 R.id.boton_gastos -> {
-                    replaceFragment(FragmentoGasto())
+                    startActivity(
+                        Intent(this, MisGastosActivity::class.java)
+                    )
                     true
                 }
 
