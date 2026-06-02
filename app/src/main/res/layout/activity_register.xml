@@ -9,15 +9,36 @@
     android:gravity="center"
     android:padding="32dp">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:id="@+id/iv_regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_regresar"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:tint="@color/white"/>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/ic_cerdo"
         android:tint="@color/white"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="80dp"
+        android:layout_gravity="center"/>
 
-    <!-- Título -->
+
+
+
+</LinearLayout>
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,7 +68,7 @@
         app:boxCornerRadiusBottomEnd="16dp"
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="2dp"
-        app:startIconDrawable="@drawable/ic_launcher_background"
+        app:startIconDrawable="@drawable/ic_person"
         app:startIconTint="@color/black"
         app:hintTextColor="#B0B0B0"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
@@ -73,7 +94,7 @@
         app:boxCornerRadiusBottomEnd="16dp"
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="2dp"
-        app:startIconDrawable="@drawable/ic_launcher_background"
+        app:startIconDrawable="@drawable/ic_email"
         app:startIconTint="@color/black"
         app:hintTextColor="#B0B0B0"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
@@ -99,7 +120,7 @@
         app:boxCornerRadiusBottomEnd="16dp"
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="2dp"
-        app:startIconDrawable="@drawable/ic_launcher_background"
+        app:startIconDrawable="@drawable/ic_key"
         app:startIconTint="@color/black"
         app:hintTextColor="#B0B0B0"
         app:passwordToggleEnabled="true"
@@ -126,7 +147,7 @@
         app:boxCornerRadiusBottomEnd="16dp"
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="2dp"
-        app:startIconDrawable="@drawable/ic_launcher_background"
+        app:startIconDrawable="@drawable/ic_key"
         app:startIconTint="@color/black"
         app:hintTextColor="#B0B0B0"
         app:passwordToggleEnabled="true"
