@@ -12,22 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppGastaPe">
         <activity
-            android:name=".MisGastosActivity"
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".RecordatoriosActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".PresupuestoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EstadisticasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CategoriasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InicioActivity"
+            android:name=".SplashActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
