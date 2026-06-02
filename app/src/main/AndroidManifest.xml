@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppGastaPe">
         <activity
+            android:name=".BottonMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
@@ -21,16 +27,17 @@
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".InicioActivity"
+<<<<<<< HEAD
             android:exported="false">
         </activity>
 
@@ -38,6 +45,9 @@
             android:name=".MisGastosActivity"
             android:exported="false">
         </activity>
+=======
+            android:exported="false" />
+>>>>>>> 720d2a5 (Avance dashboard y estadisticas, intento de barra baja nav)
     </application>
 
 </manifest>

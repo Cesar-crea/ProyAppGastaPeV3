@@ -13,6 +13,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 
 class InicioActivity : AppCompatActivity() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 720d2a5 (Avance dashboard y estadisticas, intento de barra baja nav)
 
     private lateinit var dlMenu: DrawerLayout
     private lateinit var ivMenu: ImageView
@@ -21,10 +25,10 @@ class InicioActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         enableEdgeToEdge()
         setContentView(R.layout.activity_inicio)
 
+<<<<<<< HEAD
         dlMenu = findViewById(R.id.dlMenu)
         ivMenu = findViewById(R.id.ivMenu)
         nvMenu = findViewById(R.id.nvMenu)
@@ -58,6 +62,9 @@ class InicioActivity : AppCompatActivity() {
             }
             true
         }
+=======
+
+>>>>>>> 720d2a5 (Avance dashboard y estadisticas, intento de barra baja nav)
 
         vistaNavegacionInferior.setOnItemSelectedListener { menuItem ->
 
