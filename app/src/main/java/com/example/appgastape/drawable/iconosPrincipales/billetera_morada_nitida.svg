@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="walletFront" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#B56CFF"/>
+        <stop offset="45%" stop-color="#7C2FFF"/>
+        <stop offset="100%" stop-color="#4C0FC9"/>
+    </linearGradient>
+
+    <linearGradient id="walletBack" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#C084FF"/>
+        <stop offset="100%" stop-color="#6325DC"/>
+    </linearGradient>
+
+    <linearGradient id="buttonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#E8D2FF"/>
+        <stop offset="100%" stop-color="#B78AFF"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="14" stdDeviation="14"
+            flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+</defs>
+
+<!-- Fondo transparente -->
+
+<!-- Parte trasera -->
+<g filter="url(#shadow)">
+    <path d="
+        M320 250
+        L620 180
+        Q700 165 730 220
+        L760 285
+        Q780 330 740 355
+        L430 420
+        Q360 435 320 395
+        L280 350
+        Q240 305 320 250
+    "
+    fill="url(#walletBack)"
+    opacity="0.95"/>
+
+    <!-- Cuerpo principal -->
+    <rect x="180" y="280"
+          width="620"
+          height="470"
+          rx="70"
+          fill="url(#walletFront)"/>
+
+    <!-- Brillo -->
+    <rect x="210" y="310"
+          width="560"
+          height="410"
+          rx="60"
+          fill="white"
+          opacity="0.08"/>
+
+    <!-- Costado -->
+    <rect x="710"
+          y="430"
+          width="220"
+          height="170"
+          rx="50"
+          fill="url(#walletFront)"/>
+
+    <!-- Borde costado -->
+    <rect x="725"
+          y="445"
+          width="190"
+          height="140"
+          rx="40"
+          fill="none"
+          stroke="#3A0099"
+          stroke-width="10"
+          opacity="0.45"/>
+
+    <!-- Botón -->
+    <circle cx="785"
+            cy="515"
+            r="38"
+            fill="url(#buttonGrad)"/>
+
+    <circle cx="785"
+            cy="515"
+            r="16"
+            fill="#F9F3FF"
+            opacity="0.9"/>
+
+    <!-- Detalles -->
+    <rect x="180"
+          y="280"
+          width="620"
+          height="470"
+          rx="70"
+          fill="none"
+          stroke="#3E0AA8"
+          stroke-width="10"
+          opacity="0.35"/>
+</g>
+</svg>

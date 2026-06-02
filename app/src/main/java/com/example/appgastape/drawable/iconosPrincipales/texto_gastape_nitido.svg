@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="420" viewBox="0 0 1400 420"
+     xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#8D46FF"/>
+        <stop offset="50%" stop-color="#6B20F5"/>
+        <stop offset="100%" stop-color="#3E0DB8"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="10" stdDeviation="10"
+            flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+</defs>
+
+<!-- Fondo transparente -->
+
+<g filter="url(#shadow)">
+    <text x="60"
+          y="285"
+          font-family="Poppins, Arial, sans-serif"
+          font-size="240"
+          font-weight="900"
+          fill="url(#textGrad)"
+          letter-spacing="-8">
+        GastaPe
+    </text>
+</g>
+
+</svg>
