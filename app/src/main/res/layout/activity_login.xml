@@ -8,6 +8,7 @@
     android:background="@color/morado"
     android:orientation="vertical"
     android:gravity="center"
+    android:fitsSystemWindows="true"
     android:padding="32dp">
 
 

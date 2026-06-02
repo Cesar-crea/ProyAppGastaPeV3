@@ -15,4 +15,10 @@
 
         <item name="android:textStyle">bold</item>
     </style>
+
+    <!-- Estilo personalizado para el indicador activo del BottomNavigation -->
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <!-- Cambia el color del fondo del ítem seleccionado a negro -->
+        <item name="android:color">@color/white</item>
+    </style>
 </resources>
