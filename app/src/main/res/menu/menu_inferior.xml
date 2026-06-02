@@ -6,7 +6,7 @@
         android:icon="@drawable/billetera_morada_nitida"/>
     <item
         android:id="@+id/boton_gastos"
-        android:title="Inicio"
+        android:title="Gasto"
         android:icon="@drawable/billetera_morada_nitida"/>
     <item
         android:id="@+id/boton_agregarGasto"
